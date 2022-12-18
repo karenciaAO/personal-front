@@ -5,6 +5,7 @@ import logo from "../assets/img/logo.png";
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/nav-icon2.svg";
 import navIcon3 from "../assets/img/nav-icon3.svg";
+import React from 'react';
 
 
 
@@ -44,7 +45,7 @@ export const NavBar = () => {
                 <Nav className="me-auto">
                     <Nav.Link href="#home" className={activeLink=== 'home'? 'active navbar-link' : 'navbar-link'} onClick={()=> onUpdateActiveLink('home')}>Home</Nav.Link>
                     <Nav.Link href="#skills" className={activeLink=== 'skills'? 'active navbar-link' : 'navbar-link'} onClick={()=> onUpdateActiveLink('skills')}>Skills</Nav.Link>
-                    <Nav.Link href="#experience" className={activeLink=== 'experience'? 'active navbar-link' : 'navbar-link'} onClick={()=> onUpdateActiveLink('experience')}>Experience</Nav.Link>
+                    <Nav.Link href="#information" className={activeLink=== 'information'? 'active navbar-link' : 'navbar-link'} onClick={()=> onUpdateActiveLink('information')}>Information</Nav.Link>
                 </Nav>
                 <span className="navbar-text">
                     <div className="social-icon">
